@@ -90,5 +90,4 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
 " coc extensions
-let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-highlight', 'coc-ember',
-			\'coc-html', 'coc-json', 'coc-prettier', 'coc-vimlsp', 'coc-snippets']
+let g:coc_global_extensions = ['coc-highlight', 'coc-json', 'coc-prettier', 'coc-metals']

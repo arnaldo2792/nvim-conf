@@ -1,13 +1,14 @@
-call plug#begin('~/.config/nvim/plugger')
+call plug#begin('~/.vim/plugged')
 	" Git tools
-	Plug 'jreybert/vimagit'
 	Plug 'airblade/vim-gitgutter'
+	Plug 'tpope/vim-fugitive'
 
 	" General Tools
 	Plug 'junegunn/goyo.vim'
 	Plug 'ctrlpvim/ctrlp.vim'
-	Plug 'chrisbra/csv.vim'
-	Plug 'tpope/vim-fugitive'
+  Plug 'vimwiki/vimwiki'
+  Plug 'preservim/nerdtree'
+  Plug 'mileszs/ack.vim'
 
 	" Intellisense
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
